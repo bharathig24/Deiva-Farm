@@ -1,0 +1,243 @@
+.home-image {
+    /* position: absolute; */
+    /* height: 100vh; */
+}
+
+.image {
+    height: 100vh;
+    /* position: absolute; */
+    top: 0;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.image>img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.bg-color {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+}
+
+
+/* ===================================About==================================== */
+
+.about {
+    margin-top: 72px;
+}
+
+.head {
+    text-align: center;
+    margin: auto;
+    width: fit-content
+}
+
+.head-h1 {
+    padding: 0 0 21px 0;
+}
+
+.head-hr {
+    background-color: #E85A17;
+    /* background-color: transparent; */
+    border-color: transparent;
+    height: 6px;
+}
+
+.about-p-div {
+    font-size: 19px;
+    text-align: justify;
+    max-width: 80%;
+    margin: 72px auto 0 auto;
+}
+
+
+/* ==================================Team=========================================== */
+
+.team {
+    margin-top: 72px;
+}
+
+
+/* .team-head{
+    text-align: center;
+    margin: auto;
+    width: fit-content
+}
+
+.team-head-h1{
+    padding: 0 0 21px 0;
+}
+
+.team-head-hr{
+    background-color: #02d91f;
+    border-color: transparent;
+    height: 6px;
+} */
+
+.team-img-outer-div {
+    padding: 72px 0 0 0;
+    display: flex;
+    margin: auto;
+}
+
+.team-img-div {
+    width: 33vw;
+    display: flex;
+    justify-content: center;
+}
+
+.rounded-img {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+    display: block;
+    position: relative;
+}
+
+.rounded-img:hover {
+    background-color: black;
+}
+
+.team-img-div img {
+    width: 100%;
+    height: auto;
+}
+
+.team-detail {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: rgba(40, 191, 16, 0.6);
+    position: absolute;
+    top: 300px;
+    // top: 0;
+    opacity: 1;
+    transition: transform .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    text-align: center;
+    font-size: 27px;
+    font-weight: 600;
+    margin: 36px 0 35px 0;
+}
+
+.rounded-img:hover .team-detail {
+    transform: translateY(-300px);
+}
+
+.team-detail-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 55%;
+    height: 100%;
+}
+
+.team-detail-inner fa-icon {
+    color: white;
+}
+
+.team-detail-inner a:hover fa-icon {
+    color: #E85A17;
+}
+
+
+/* =======================Contact=============================== */
+
+.contact {
+    /* width: 100%; */
+    padding-top: 37px;
+    background-color: #28BF10;
+    color: white;
+    // background-color: #EDEDED;
+}
+
+.contact-outer-div {
+    display: flex;
+    padding: 40px 180px 40px 180px;
+}
+
+.contact-sub-div {
+    width: 50%;
+}
+
+.detail {
+    display: flex;
+    color: white;
+    padding: 0 0 45px 0;
+}
+
+.icon-div {
+    width: 30px;
+    text-align: center;
+    color: white;
+}
+
+.icon-div fa-icon:hover {
+    color: #E34E03;
+    /* text-align: center; */
+}
+
+.iconify {
+    color: white;
+}
+
+.detail p {
+    padding-left: 27px;
+}
+
+.contact-sub-div .detail:first-child {
+    padding-top: 30px;
+}
+
+.msg {
+    margin: 20px auto 0px auto;
+    width: 90%;
+    padding: 10px 0 10px 0;
+}
+
+.msg input {
+    border-color: transparent;
+    border-radius: 10px;
+    width: 100%;
+    height: 43px;
+    padding: 0 0 0 26px;
+    font-size: 15px;
+}
+
+.msg textarea {
+    border-color: transparent;
+    border-radius: 10px;
+    width: 100%;
+    padding: 16px 0 0 26px;
+    font-size: 15px;
+}
+
+.msg button {
+    border-radius: 14px;
+    border: 2px solid #CC4603;
+    width: 40%;
+    font-size: 18px;
+    padding: 13px 10px 13px 10px;
+    float: right;
+    color: white;
+    background-color: #E34E03;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+}

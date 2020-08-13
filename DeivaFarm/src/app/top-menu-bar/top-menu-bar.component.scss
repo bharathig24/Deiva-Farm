@@ -1,0 +1,43 @@
+.top-nav {
+    background-color: transparent;
+    padding: 20px 0 20px 0;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.top-nav-header {
+    display: inline;
+    padding: 0 0 0 45px;
+}
+
+.top-nav-bar {
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.top-nav-bar>a {
+    padding: 30px;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.top-nav-header>a {
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.top-nav-bar>a:hover {
+    background-color: rgba(2, 217, 31, 0.7);
+    // color: #E85A17;
+}
+
+.top-nav-header>a:hover {
+    // color: #02d91f;
+    color: #E85A17;
+}

@@ -1,0 +1,10 @@
+<div class="top-nav">
+    <div class="top-nav-header"><a href="#">DEIVA FARM</a></div>
+    <div class="top-nav-bar" [ngStyle]="{'display': user == '' ? 'none' : 'block' }"><a href="#">{{user}}</a></div>
+    <div class="top-nav-bar" [ngStyle]="{'display': user == '' ? 'block' : 'none' }"><a routerLink="/login">Login</a></div>
+    <div class="top-nav-bar" [ngStyle]="{'display': user == '' ? 'none' : 'block' }"><a routerLink="" (click)="logout()">Logout</a></div>
+    <div class="top-nav-bar"><a href="#">Help</a></div>
+    <div class="top-nav-bar"><a href="#">Cart</a></div>
+    <div class="top-nav-bar"><a href="#">Products</a></div>
+    <div class="top-nav-bar"><a href="#">Home</a></div>
+</div>
